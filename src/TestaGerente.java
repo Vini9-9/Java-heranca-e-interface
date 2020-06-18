@@ -13,10 +13,23 @@ public class TestaGerente {
         System.out.println(g1.getSalario());
 
         g1.setSenha(2222);
-        boolean autenticou = g1.autentica(2222);
+        g1.setLogin("g1");
+        
+        
+        //Teste de sobrecarga
+        
+        boolean autenticouSenha = g1.autentica(2222);
 
-        System.out.println(autenticou);
+        System.out.println(autenticouSenha);
+        
+        boolean autenticouLoginESenha = g1.autentica("g1",2222);
 		
+        System.out.println(autenticouSenha);
+        
+        
+        
+        System.out.println(g1.getBonificacao());
+        
 
 	}
 
