@@ -9,6 +9,7 @@ public class Funcionario {
 	// Bonificação de 10% do salário
 	
 	public double getBonificacao() {
+		System.out.println("Método bonificação Funcionário Comum");
 	    return this.salario * 0.1;
 	}
 	
@@ -43,6 +44,9 @@ public class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+	
+	
+
 	
 	
 	

@@ -24,7 +24,7 @@ public class TestaGerente {
         
         boolean autenticouLoginESenha = g1.autentica("g1",2222);
 		
-        System.out.println(autenticouSenha);
+        System.out.println(autenticouLoginESenha);
         
         
         

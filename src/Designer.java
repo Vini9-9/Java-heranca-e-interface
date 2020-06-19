@@ -1,8 +1,8 @@
-// Gerente herda da casse Funcionario
-public class Gerente extends Funcionario{
+// Designer herda da casse Funcionario
+public class Designer extends Funcionario{
 	
 	
-	private String login;
+/*	private String login;
 	private int senha=0;
 	
 	public void setSenha(int senha) {
@@ -36,14 +36,14 @@ public class Gerente extends Funcionario{
 	    }
 		
     }
+	*/
 	
 	
-	
-	// Bonificação de funcionário comum + salário
+	// Bonificação de Designer
 	
 	public double getBonificacao() {
-		System.out.println("Método bonificação Gerente");
-	    return (super.getBonificacao()) + super.getSalario();
+		System.out.println("Método bonificação Designer");
+		return 200;
 	}
 	
 	
